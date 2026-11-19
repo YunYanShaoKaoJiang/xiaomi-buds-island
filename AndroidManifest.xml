@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kernel.xiaomibudsisland"
+    android:versionCode="2"
+    android:versionName="1.1">
+    <application android:label="Xiaomi Buds Island"
+        android:icon="@mipmap/ic_launcher"
+        android:hasCode="true">
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposeddescription" android:value="修复柔光玻璃超级岛耳机状态通知出现异常黑框的问题。（雷军！金凡！张雷！！！）" />
+        <meta-data android:name="xposedminversion" android:value="93" />
+        <meta-data android:name="xposedscope" android:value="com.android.systemui" />
+    </application>
+</manifest>

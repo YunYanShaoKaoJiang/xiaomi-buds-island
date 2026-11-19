@@ -1,0 +1,18 @@
+# 构建产物
+build-out/
+out/
+*.apk
+*.dex
+*.jar
+*.flat
+
+# 签名与临时文件
+debug.keystore
+*.keystore
+*.jks
+*.idsig
+
+# 反编译参考与抓包
+ref/
+verify/
+*.log
